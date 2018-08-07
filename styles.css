@@ -174,3 +174,33 @@ _:-ms-input-placeholder, :root .demo-graph {
   box-sizing: border-box;
   align-items: center;
 }
+
+
+
+
+.message-container{
+  margin: 4px;
+  width: 98%;
+}
+
+.from, .when {
+    font-size: x-small;
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.body {
+    background-color: lightsteelblue;
+    padding: 11px;
+    /*border-radius: 10px;*/
+    /*margin-right: 5px;*/
+
+}
+
+.me {
+  text-align: right;
+}
+
+.me .body {
+    background-color: wheat;
+}
